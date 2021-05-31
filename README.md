@@ -11,11 +11,6 @@
 > 🎉 🔥 ✨ 新发布的 V0.0.6 新增容器备份到本地、查看容器Inspect的功能以及修复若干BUG
 
 
-## 演示网站
-   1. 演示环境 [http://docker.zhoutao123.com](http://docker.zhoutao123.com)
-   2. 账号: admin 密码: 123456
-   3. 演示环境，请勿删除/停止/暂停 simpledocker-xxxx 开头的容器，否则可能造成服务异常
-   4. 如果演示环境无法登录或者无法使用，请及时创建Issue联系我
 
 
 ## 背景
@@ -23,7 +18,7 @@
 Docker是目前一种非常主流的容器化方案，支持非常多的特性，给开发者带来便利，但是 Docker 镜像以及容器管理复杂的参数让新手望而却步，基于此开发 SimpleDocker 控制面板，方便新手和相关的运维同学使用!!!
 
 > 本项目是基于学习的目的的，致力于提供一个 界面清晰、免费的、简单的、专注于 Docker 服务管理的控制面板(当然也会持续开发下去~)，目的只想做一个适合自己的管理软件！！！
-> Tip: 您可以在Issues中提出需求和您发现的bug！[需求 & BUG 管理](https://github.com/taoes/SimpleDocker/issues)
+> Tip: 您可以在Issues中提出需求和您发现的bug！[需求 & BUG 管理](https://github.com/wenjiping/SimpleDocker/issues)
 
 
 ### 🎉 目前支持特性
@@ -92,7 +87,7 @@ docker-compose up -d # 后台运行
 #### Dockerfile + DockerCompose
 
 ```bash
-git clone https://gitee.com/taoes_admin/SimpleDocker
+git clone https://github.com/wenjiping/SimpleDocker
 cd SimpleDocker
 docker-compose up -d --build # Build images before starting containers
 ```
@@ -103,7 +98,7 @@ docker-compose up -d --build # Build images before starting containers
 1. 克隆代码到本地，并启动 beego项目
 
 ```shell
-git clone https://gitee.com/taoes_admin/SimpleDocker
+git clone https://github.com/wenjiping/SimpleDocker
 cd ./SimpleDocker
 bee run
 ```
@@ -153,30 +148,3 @@ yarn install && yarn server
 + Network 信息
   ![Network 信息](./img/network.png)
 
-## Q & A
-
-1. 忘记密码
-
-> 忘记密码时候，你可以通过访问Redis服务的1号数据库，移除  `KEY=SIMPLE:DOCKER:AUTH:*`的所有KEY即可恢复默认密码
-
-## 相关依赖
-
-- [GoLang](https://golang.org/)
-- [Vuex](https://vuex.vuejs.org/)
-- [VueJs 2.x](https://vuejs.org/)
-- [Ant Design Vue](https://www.antdv.com/docs/vue/introduce-cn/)
-- [Docker API Engine](https://docs.docker.com/engine/api/sdk/)
-
-## 我的信息
-
-+ [燕归来兮的 GitEE ](https://gitee.com/taoes_admin)
-+ [燕归来兮的 GitHub](https://github.com/taoes)
-+ [燕归来兮的技术博客](https://www.zhoutao123.com)
-
-## 讨论
-
-本项目完全开源，如有任何需求或者BUG反馈，欢迎提交Issue[Open an issue](https://github.com/taoes/SimpleDocker/issues/new) 或者提交PR！
-
-## 开源方案
-
-[GPL](./LICENSE)
