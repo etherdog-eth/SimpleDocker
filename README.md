@@ -1,11 +1,5 @@
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-<<<<<<< HEAD
-
-    
-![xxx](./img/icon.png)
-=======
->>>>>>> dev
 
     
 ![xxx](./img/icon.png)
@@ -15,13 +9,6 @@
 **个人开发维护不易，麻烦给个 Star ✨ 鼓励一下作者,您的鼓励是我最大的动力 😛！！！**
 
 > 🎉 🔥 ✨ 新发布的 V0.0.6 新增容器备份到本地、查看容器Inspect的功能以及修复若干BUG
-
-
-## 演示网站
-   1. 演示环境 [http://docker.zhoutao123.com](http://docker.zhoutao123.com)
-   2. 账号: admin 密码: 123456
-   3. 演示环境，请勿删除/停止/暂停 simpledocker-xxxx 开头的容器，否则可能造成服务异常
-   4. 如果演示环境无法登录或者无法使用，请及时创建Issue联系我
 
 
 
